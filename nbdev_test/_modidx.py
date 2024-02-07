@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://mhk197.github.io',
                 'git_url': 'https://github.com/mhk197/nbdev_test',
                 'lib_path': 'nbdev_test'},
-  'syms': {'nbdev_test.core': {'nbdev_test.core.foo': ('core.html#foo', 'nbdev_test/core.py')}}}
+  'syms': { 'nbdev_test.core': {'nbdev_test.core.foo': ('core.html#foo', 'nbdev_test/core.py')},
+            'nbdev_test.test_start': { 'nbdev_test.test_start.foo': ('start.html#foo', 'nbdev_test/test_start.py'),
+                                       'nbdev_test.test_start.say_hello': ('start.html#say_hello', 'nbdev_test/test_start.py')}}}
