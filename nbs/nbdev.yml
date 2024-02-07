@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev_test"
+  site-url: "https://mhk197.github.io/nbdev_test"
+  description: ""
+  repo-branch: main
+  repo-url: "https://github.com/mhk197/nbdev_test"
